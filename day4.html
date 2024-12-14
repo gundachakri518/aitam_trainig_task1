@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>This a Personal Information</legend>
+        <label for="name">First Name :</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="enter your first name"
+        />
+        <br />
+        <br />
+        <label for="name">Last Name :</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="enter your last name"
+        />
+        <br /><br />
+        <label for="email">Email :</label>
+        <input
+          type="email"
+          name="mail"
+          id="email"
+          placeholder="enter your email address"
+        />
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Educational Iformation</legend>
+        <label for="degree">Degree :</label>
+        <input type="text" name="degree" id="degree" /><br /><br />
+        <label for="university">University Name :</label>
+        <input type="text" name="university" id="universioty" />
+      </fieldset>
+      <br /><br />
+      <textarea
+        name=""
+        id=""
+        placeholder="enter your feedback"
+        rows="2"
+        cols="30"
+      ></textarea>
+      <input type="submit" value="Submit" />
+      <button>click here tp submit</button>
+      <!--how to make drop  down-->
+      <!--using select and option tag -->
+      <select name="country" id="">
+        <option value="us">US</option>
+        <option value="ind">India</option>
+        <option value="uk">UK</option>
+        <option value="aus">Australia</option>
+        <option value="canada">Canada</option>
+      </select>
+      <!--optgroup to categorize options-->
+      <!--<select name="vehicles" id="">
+                <optgroup label="cars">
+                    <option value="shift">shift</option>
+                    <option value="alto">alto</option>
+                </optgroup>
+                <optgroup label="bikes">
+                    <option value="pulsar">Pulsar</option>
+                    <option value="glammar">glammar</option>
+                </optgroup>
+                <optgroup label="truck">
+                    <option value="tata">TATA</option>
+                    <option value="mahindra">Mahindra</option>
+                </optgroup>
+            </select>-->
+      <br />
+      <br />
+      <form action="">
+        <fieldset>
+            <legend>
+                menu card
+            </legend>
+            <select name="food" id="">
+                <optgroup label="veg">
+                  <option value="dalrice">dalrice</option>
+                  <option value="veg biryani">Veg Biryani</option>
+
+                </optgroup>
+              </select>
+              <br><br>
+              <select name="food" id="">
+                <optgroup label="non-Veg">
+                    <option value="chicken">Chicken</option>
+                    <option value="maten">Maten</option>
+                    <option value="france">france</option>
+                  </optgroup>
+              </select>
+        </fieldset>
+        
+        <input list="ice-cream-flavour" name="ice-cream-choice" id="
+        ice-cream-choice">
+        <datalist id="ice-cream-flavour">
+            <option value="venela">Venela</option>
+            <option value="chocalate">chocklate</option>
+            <option value="straweberry">Strawberry</option>
+        </datalist>
+      </form>
+      
+    </form>
+    <form oninput="rsult.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="number" name="a" id="a">+<input type="number" name="b" id="b">=
+        <output name="result"></output>
+    </form>
+  </body>
+</html>

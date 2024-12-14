@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="">
+        <fieldset>
+            <legend><b><i><u><h3>Basic Information</h3></u></i></b></legend><br>
+            <label for="name">Full Name :</label>
+            <input type="text" name="name" id="name" placeholder="First Name" >
+            <input type="text" name="name" id="name" placeholder="Middle Name">
+            <input type="text" name="name" id="name" placeholder="Last Name">
+            <br><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br><br>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" name="DOB" id="DOB"><br><br>
+            <label for="mail">Email :</label>
+            <input type="email" name="mail" id="mail" placeholder="Address@gmail.com"><br><br>
+            <label for="mobile">Mobile Number :</label>
+            <input type="text" name="mobile" id="mobile"><br><br>
+            <label for="parent">Parent or Guardian Name :</label>
+            <input type="text" name="parent" id="parent"><br><br>
+            <label for="pnum">Parent or Guardian contact Number :</label>
+            <input type="text" name="number" id="pnum"><br><br>
+            <label for="anum">Aadhar Number :</label>
+            <input type="text" name="anum" id="anum"><br><br>
+            <label for="ver">Enter any identification certificate :(Aadhar/Pan/License)</label>
+            <input type="file" name="ver" id="ver">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b><i><u><h3>Contact Details</h3></u></i></b></legend>
+            <label for="number">Contact Number :</label>
+            <input type="text" name="number" id="number"><br><br>
+            <label for="anumber">Alternative  Number :</label>
+            <input type="text" name="anumber" id="anumber">
+            <h3><u><i>Address:</i></u></h3>
+            <label for="st">Street Name :</label>
+            <input type="text" name="st" id="st"><br><br>
+            <label for="village">Village Name :</label>
+            <input type="text" name="village" id="village"><br><br>
+            <label for="city">City Name :</label>
+            <input type="text" name="city" id="city"><br><br>
+            <label for="state">State :</label>
+            <input type="text" name="state" id="state"><br><br>
+            <label for="district">District :</label>
+            <input type="text" name="district" id="district"><br><br>
+            <h3><i><u>Parment Address:</u></i></h3>
+            <label for="st">Street Name :</label>
+            <input type="text" name="st" id="st"><br><br>
+            <label for="village">Village Name :</label>
+            <input type="text" name="village" id="village"><br><br>
+            <label for="city">City Name :</label>
+            <input type="text" name="city" id="city"><br><br>
+            <label for="state">State :</label>
+            <input type="text" name="state" id="state"><br><br>
+            <label for="district">District :</label>
+            <input type="text" name="district" id="district"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><B><I><U><h3>Educational Information</h3></U></I></B></legend>
+            <label for="cname">College Name :</label>
+            <input type="text" name="cname" id="cname"><br><br>
+            <label for="course">Course :</label>
+            <select name="course" id="course">
+               
+                    <option value="1">B.tech</option>
+                    <option value="2">Diploma</option>
+                    <option value="3">MBA</option>
+               
+            </select><br><br>
+
+            <label for="branch">Branch </label>
+            <select name="branch" id="branch">
+                <option value="a">CSE</option>
+                <option value="b">ECE</option>
+                <option value="c">EEE</option>
+                <option value="d">MECH</option>
+                <option value="e">Civil</option>
+            </select><br><br>
+            <label for="sec">Section</label>
+            <select name="sec" id="sec">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select><br>
+            <br>
+            <label for="roll">Roll Number :</label>
+            <input type="text" name="roll" id="roll"><br><br>
+            <label for="cver">Enter any verification certificate (ID card/Marks Memo)</label>
+            <input type="file" name="cver" id="cver">
+        </fieldset><br>
+        <fieldset>
+            <legend><h3><b><i><u>Other Details</u></i></b></h3></legend>
+            <label for="income">Annual Family Income :</label>
+            <input type="text" name="income" id="income"><br><br>
+            <label for="sc">Caste :</label>
+            <select name="sc" id="sc">
+                <option value="a">SC</option>
+                <option value="b">ST</option>
+                <option value="c">OBC</option>
+                <option value="d">OC</option>
+            </select><br><br>
+            <label for="scholar">Do you have any Scholarship :</label>
+            <input type="radio" name="scholar" id="no">NO
+            <input type="radio" name="scholar" id="yes">YES
+            <br><br>
+            <label for="choice">Do You Plan To Shift To Another Course?</label>
+            <input type="radio" name="choice" id="no">NO
+            <input type="radio" name="choice" id="yes">Yes
+            <br><br>
+            <label for="skills">Skills/Talents :</label><br>
+            <input type="checkbox" name="skills" id="Acting">Acting <br>
+            <input type="checkbox" name="skills" id="dance">Dance <br>
+            <input type="checkbox" name="skills" id="drawing">Drawing <br>
+            <input type="checkbox" name="skills" id="story">Story writing <br>
+            <input type="checkbox" name="skills" id="craft">Art Crafting <br>
+            <br>
+            <label for="sk">Other skills :</label>
+            <input type="text" name="sk" id="sk"><br><br>
+            <label for="sugg">Suggestions/comments :</label>
+            <textarea name="sugg" id="sugg" rows="1" cols="30"></textarea>
+        </fieldset><br>
+        <input type="submit" style="margin-left: 300px;"><br><br>
+        <button>Refresh</button>
+    </form>
+</body>
+</html>
